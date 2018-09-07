@@ -10,7 +10,7 @@ public class Division {
 			System.out.println("Arithmetic Exception occured");
 		}
 		catch(NullPointerException exception){
-			System.out.println("NullPointerException occured");
+			System.out.println("NullPointerException occuredd");
 		}
 		finally{
 			System.out.println("Finally Blockk");

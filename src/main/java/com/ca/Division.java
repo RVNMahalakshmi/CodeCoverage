@@ -11,6 +11,10 @@ public class Division {
 			System.out.println("Catch Block");
 			System.out.println("Added code");
 		}
+		catch(NullPointerException exception){
+			System.out.println("NullPointerException occured");
+			System.out.println("Catch Block");
+		}
 		finally{
 			System.out.println("Finally Block");
 		}

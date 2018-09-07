@@ -9,6 +9,7 @@ public class Division {
 		}catch(ArithmeticException exception){
 			System.out.println("Arithmetic Exception occured");
 			System.out.println("Catch Block");
+			System.out.println("Added code");
 		}
 		finally{
 			System.out.println("Finally Block");

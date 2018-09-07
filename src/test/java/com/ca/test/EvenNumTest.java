@@ -8,7 +8,13 @@ public class EvenNumTest {
 	@Test
 	public void test1(){
 		EvenNum ele=new EvenNum();
-		ele.evenNum(7);
+		boolean flag=ele.evenNum(7);
+		if(flag){
+			System.out.println("Even Num");
+		}
+		else{
+			System.out.println("Odd Num");
+		}
 	}
 	/*@Test
 	public void test2(){

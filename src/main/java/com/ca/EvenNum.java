@@ -1,12 +1,11 @@
 package com.ca;
 
 public class EvenNum {
-	public void evenNum(int n){
+	public boolean evenNum(int n){
+		boolean flag=false;
 		if(n%2==0){
-			System.out.println("given number is even number");
+			flag=true;
 		}
-		else{
-			System.out.println("given number is odd number");
-		}
+		return flag;
 	}
 }

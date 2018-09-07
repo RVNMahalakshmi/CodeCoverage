@@ -14,6 +14,6 @@ public class TestClass {
 	public void test2(){
 		Division div=new Division();
 		System.out.println("hello");
-		div.divide(10, 2);
+		div.divide(20, 2);
 	}
 }

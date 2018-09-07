@@ -13,7 +13,7 @@ public class Division {
 			System.out.println("NullPointerException occured");
 		}
 		finally{
-			System.out.println("Finally Block");
+			System.out.println("Finally Blockk");
 		}
 		return result;
 	}
